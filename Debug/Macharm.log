@@ -1,0 +1,370 @@
+﻿生成启动时间为 2016/3/10 16:32:17。
+     1>项目“F:\Users\Wen\Documents\Arduino\Macharm\Macharm.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"D:\Program Files (x86)\Arduino\hardware\arduino\cores\arduino" /I"D:\Program Files (x86)\Arduino\hardware\arduino\variants\standard" /IF:\Users\Wen\Documents\Arduino\Macharm /I"D:\Program Files (x86)\Arduino\libraries\Servo" /I"D:\Program Files (x86)\Arduino\libraries\Servo\utility" /I"D:\Program Files (x86)\Arduino\libraries\SSD1306" /I"D:\Program Files (x86)\Arduino\libraries\SSD1306\utility" /I"D:\Program Files (x86)\Arduino\libraries" /I"D:\Program Files (x86)\Arduino\hardware\arduino\libraries" /I"D:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\IDE\Extensions\t2hrnxht.gb1\Micro Platforms\default\debuggers" /IF:\Users\Wen\Documents\Arduino\libraries /I"d:\program files (x86)\arduino\hardware\tools\avr\avr\include\\" /I"d:\program files (x86)\arduino\hardware\tools\avr\avr\include\avr\\" /I"d:\program files (x86)\arduino\hardware\tools\avr\avr\\" /I"d:\program files (x86)\arduino\hardware\tools\avr\lib\gcc\avr\4.3.2\include\\" /ZI /nologo /W1 /WX- /Od /Oy- /D __AVR_ATmega328p__ /D __AVR_ATmega328P__ /D ARDUINO=106 /D ARDUINO_MAIN /D __AVR__ /D __avr__ /D F_CPU=16000000L /D __cplusplus=201103L /D GCC_VERSION=40302 /D ARDUINO_ARCH_AVR /D ARDUINO_AVR_UNO /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /FIF:\Users\Wen\Documents\Arduino\Macharm\__vm\.Macharm.vsarduino.h /analyze- /errorReport:prompt mashinepropery.cpp MashPid.cpp
+         MashPid.cpp
+     1>c1xx : warning C4117: 保留“__cplusplus”宏名，忽略“#define”
+     1>f:\users\wen\documents\arduino\macharm\__vm\.macharm.vsarduino.h(13): warning C4005: “__AVR_ATmega328p__”: 宏重定义
+                 命令行参数: 参见前面的“__AVR_ATmega328p__”定义
+     1>f:\users\wen\documents\arduino\macharm\__vm\.macharm.vsarduino.h(14): warning C4005: “__AVR_ATmega328P__”: 宏重定义
+                 命令行参数: 参见前面的“__AVR_ATmega328P__”定义
+     1>f:\users\wen\documents\arduino\macharm\__vm\.macharm.vsarduino.h(16): warning C4005: “ARDUINO_MAIN”: 宏重定义
+                 命令行参数: 参见前面的“ARDUINO_MAIN”定义
+     1>f:\users\wen\documents\arduino\macharm\__vm\.macharm.vsarduino.h(17): warning C4005: “__AVR__”: 宏重定义
+                 命令行参数: 参见前面的“__AVR__”定义
+     1>f:\users\wen\documents\arduino\macharm\__vm\.macharm.vsarduino.h(18): warning C4005: “__avr__”: 宏重定义
+                 命令行参数: 参见前面的“__avr__”定义
+     1>f:\users\wen\documents\arduino\macharm\__vm\.macharm.vsarduino.h(20): warning C4117: 保留“__cplusplus”宏名，忽略“#define”
+     1>f:\users\wen\documents\arduino\macharm\__vm\.macharm.vsarduino.h(22): warning C4005: “ARDUINO_ARCH_AVR”: 宏重定义
+                 命令行参数: 参见前面的“ARDUINO_ARCH_AVR”定义
+     1>f:\users\wen\documents\arduino\macharm\__vm\.macharm.vsarduino.h(23): warning C4005: “ARDUINO_AVR_UNO”: 宏重定义
+                 命令行参数: 参见前面的“ARDUINO_AVR_UNO”定义
+     1>f:\users\wen\documents\arduino\macharm\__vm\.macharm.vsarduino.h(30): warning C4005: “__asm__”: 宏重定义
+                 f:\users\wen\documents\arduino\macharm\__vm\.macharm.vsarduino.h(25) : 参见“__asm__”的前一个定义
+     1>d:\program files (x86)\arduino\hardware\tools\avr\lib\gcc\avr\4.3.2\include\stddef.h(214): error C2371: “size_t”: 重定义；不同的基类型
+                 f:\users\wen\documents\arduino\macharm\predefined c++ types (compiler internal)(19) : 参见“size_t”的声明
+     1>d:\program files (x86)\arduino\hardware\tools\avr\avr\include\stdlib.h(152): error C2072: “div”: 函数的初始化
+     1>d:\program files (x86)\arduino\hardware\tools\avr\avr\include\stdlib.h(152): error C2440: “初始化”: 无法从“const char [12]”转换为“div_t (int,int)”
+                 没有转换为函数类型，但有转换为函数的引用或指针
+     1>d:\program files (x86)\arduino\hardware\tools\avr\avr\include\stdlib.h(158): error C2072: “ldiv”: 函数的初始化
+     1>d:\program files (x86)\arduino\hardware\tools\avr\avr\include\stdlib.h(158): error C2440: “初始化”: 无法从“const char [12]”转换为“ldiv_t (long,long)”
+                 没有转换为函数类型，但有转换为函数的引用或指针
+     1>d:\program files (x86)\arduino\hardware\tools\avr\avr\include\math.h(336): error C2143: 语法错误 : 缺少“)”(在“:”的前面)
+     1>d:\program files (x86)\arduino\hardware\tools\avr\avr\include\math.h(337): error C2059: 语法错误:“)”
+     1>d:\program files (x86)\arduino\hardware\tools\avr\avr\include\math.h(413): error C2143: 语法错误 : 缺少“)”(在“:”的前面)
+     1>d:\program files (x86)\arduino\hardware\tools\avr\avr\include\math.h(414): error C2059: 语法错误:“)”
+     1>d:\program files (x86)\arduino\hardware\arduino\cores\arduino\arduino.h(113): error C2371: “byte”: 重定义；不同的基类型
+                 f:\users\wen\documents\arduino\macharm\__vm\.macharm.vsarduino.h(44) : 参见“byte”的声明
+     1>d:\program files (x86)\arduino\hardware\arduino\cores\arduino\hardwareserial.h(65): error C2535: “size_t HardwareSerial::write(uint8_t)”: 已经定义或声明成员函数
+                 d:\program files (x86)\arduino\hardware\arduino\cores\arduino\hardwareserial.h(62) : 参见“HardwareSerial::write”的声明
+     1>f:\users\wen\documents\arduino\macharm\__vm\.macharm.vsarduino.h(54): warning C4005: “pgm_read_byte”: 宏重定义
+                 d:\program files (x86)\arduino\hardware\tools\avr\avr\include\avr\pgmspace.h(696) : 参见“pgm_read_byte”的前一个定义
+     1>f:\users\wen\documents\arduino\macharm\__vm\.macharm.vsarduino.h(55): warning C4005: “pgm_read_word”: 宏重定义
+                 d:\program files (x86)\arduino\hardware\tools\avr\avr\include\avr\pgmspace.h(705) : 参见“pgm_read_word”的前一个定义
+     1>f:\users\wen\documents\arduino\macharm\__vm\.macharm.vsarduino.h(57): warning C4005: “digitalPinToPort”: 宏重定义
+                 d:\program files (x86)\arduino\hardware\arduino\cores\arduino\arduino.h(163) : 参见“digitalPinToPort”的前一个定义
+     1>f:\users\wen\documents\arduino\macharm\__vm\.macharm.vsarduino.h(58): warning C4005: “digitalPinToBitMask”: 宏重定义
+                 d:\program files (x86)\arduino\hardware\arduino\cores\arduino\arduino.h(164) : 参见“digitalPinToBitMask”的前一个定义
+     1>f:\users\wen\documents\arduino\macharm\__vm\.macharm.vsarduino.h(59): warning C4005: “digitalPinToTimer”: 宏重定义
+                 d:\program files (x86)\arduino\hardware\arduino\cores\arduino\arduino.h(165) : 参见“digitalPinToTimer”的前一个定义
+     1>f:\users\wen\documents\arduino\macharm\__vm\.macharm.vsarduino.h(60): warning C4005: “analogInPinToBit”: 宏重定义
+                 d:\program files (x86)\arduino\hardware\arduino\cores\arduino\arduino.h(145) : 参见“analogInPinToBit”的前一个定义
+     1>f:\users\wen\documents\arduino\macharm\__vm\.macharm.vsarduino.h(61): warning C4005: “portOutputRegister”: 宏重定义
+                 d:\program files (x86)\arduino\hardware\arduino\cores\arduino\arduino.h(167) : 参见“portOutputRegister”的前一个定义
+     1>f:\users\wen\documents\arduino\macharm\__vm\.macharm.vsarduino.h(62): warning C4005: “portInputRegister”: 宏重定义
+                 d:\program files (x86)\arduino\hardware\arduino\cores\arduino\arduino.h(168) : 参见“portInputRegister”的前一个定义
+     1>f:\users\wen\documents\arduino\macharm\__vm\.macharm.vsarduino.h(63): warning C4005: “portModeRegister”: 宏重定义
+                 d:\program files (x86)\arduino\hardware\arduino\cores\arduino\arduino.h(169) : 参见“portModeRegister”的前一个定义
+     1>f:\users\wen\documents\arduino\macharm\macharm.ino(130): error C3861: “DealSerialEvent”:  找不到标识符
+     1>d:\program files (x86)\arduino\libraries\ssd1306\ssd1306.h(82): error C2011: “SSD1306”:“class”类型重定义
+                 d:\program files (x86)\arduino\libraries\ssd1306\ssd1306.h(82) : 参见“SSD1306”的声明
+     1>f:\users\wen\documents\arduino\macharm\mashinepropery.cpp(19): error C2079: “oled”使用未定义的 class“SSD1306”
+     1>f:\users\wen\documents\arduino\macharm\mashinepropery.cpp(19): error C2078: 初始值设定项太多
+     1>f:\users\wen\documents\arduino\macharm\mashinepropery.cpp(34): error C2228: “.drawchar”的左边必须有类/结构/联合
+                 类型是“int”
+     1>f:\users\wen\documents\arduino\macharm\mashinepropery.cpp(35): error C2228: “.drawchar”的左边必须有类/结构/联合
+                 类型是“int”
+     1>f:\users\wen\documents\arduino\macharm\mashinepropery.cpp(36): error C2228: “.drawchar”的左边必须有类/结构/联合
+                 类型是“int”
+     1>f:\users\wen\documents\arduino\macharm\mashinepropery.cpp(38): error C2228: “.drawchar”的左边必须有类/结构/联合
+                 类型是“int”
+     1>f:\users\wen\documents\arduino\macharm\mashinepropery.cpp(39): error C2228: “.drawchar”的左边必须有类/结构/联合
+                 类型是“int”
+     1>f:\users\wen\documents\arduino\macharm\mashinepropery.cpp(40): error C2228: “.drawchar”的左边必须有类/结构/联合
+                 类型是“int”
+     1>f:\users\wen\documents\arduino\macharm\mashinepropery.cpp(42): error C2228: “.drawchar”的左边必须有类/结构/联合
+                 类型是“int”
+     1>f:\users\wen\documents\arduino\macharm\mashinepropery.cpp(43): error C2228: “.drawchar”的左边必须有类/结构/联合
+                 类型是“int”
+     1>f:\users\wen\documents\arduino\macharm\mashinepropery.cpp(44): error C2228: “.drawchar”的左边必须有类/结构/联合
+                 类型是“int”
+     1>f:\users\wen\documents\arduino\macharm\mashinepropery.cpp(46): error C2228: “.drawchar”的左边必须有类/结构/联合
+                 类型是“int”
+     1>f:\users\wen\documents\arduino\macharm\mashinepropery.cpp(47): error C2228: “.drawchar”的左边必须有类/结构/联合
+                 类型是“int”
+     1>f:\users\wen\documents\arduino\macharm\mashinepropery.cpp(48): error C2228: “.drawchar”的左边必须有类/结构/联合
+                 类型是“int”
+     1>f:\users\wen\documents\arduino\macharm\mashinepropery.cpp(50): error C2228: “.drawchar”的左边必须有类/结构/联合
+                 类型是“int”
+     1>f:\users\wen\documents\arduino\macharm\mashinepropery.cpp(51): error C2228: “.drawchar”的左边必须有类/结构/联合
+                 类型是“int”
+     1>f:\users\wen\documents\arduino\macharm\mashinepropery.cpp(52): error C2228: “.drawchar”的左边必须有类/结构/联合
+                 类型是“int”
+     1>f:\users\wen\documents\arduino\macharm\mashinepropery.cpp(54): error C2228: “.drawchar”的左边必须有类/结构/联合
+                 类型是“int”
+     1>f:\users\wen\documents\arduino\macharm\mashinepropery.cpp(55): error C2228: “.drawchar”的左边必须有类/结构/联合
+                 类型是“int”
+     1>f:\users\wen\documents\arduino\macharm\mashinepropery.cpp(56): error C2228: “.drawchar”的左边必须有类/结构/联合
+                 类型是“int”
+     1>f:\users\wen\documents\arduino\macharm\mashinepropery.cpp(58): error C2228: “.display”的左边必须有类/结构/联合
+                 类型是“int”
+     1>f:\users\wen\documents\arduino\macharm\mashinepropery.cpp(64): error C2228: “.drawchar”的左边必须有类/结构/联合
+                 类型是“int”
+     1>f:\users\wen\documents\arduino\macharm\mashinepropery.cpp(65): error C2228: “.drawchar”的左边必须有类/结构/联合
+                 类型是“int”
+     1>f:\users\wen\documents\arduino\macharm\mashinepropery.cpp(66): error C2228: “.drawchar”的左边必须有类/结构/联合
+                 类型是“int”
+     1>f:\users\wen\documents\arduino\macharm\mashinepropery.cpp(68): error C2228: “.drawchar”的左边必须有类/结构/联合
+                 类型是“int”
+     1>f:\users\wen\documents\arduino\macharm\mashinepropery.cpp(69): error C2228: “.drawchar”的左边必须有类/结构/联合
+                 类型是“int”
+     1>f:\users\wen\documents\arduino\macharm\mashinepropery.cpp(70): error C2228: “.drawchar”的左边必须有类/结构/联合
+                 类型是“int”
+     1>f:\users\wen\documents\arduino\macharm\mashinepropery.cpp(72): error C2228: “.drawchar”的左边必须有类/结构/联合
+                 类型是“int”
+     1>f:\users\wen\documents\arduino\macharm\mashinepropery.cpp(73): error C2228: “.drawchar”的左边必须有类/结构/联合
+                 类型是“int”
+     1>f:\users\wen\documents\arduino\macharm\mashinepropery.cpp(74): error C2228: “.drawchar”的左边必须有类/结构/联合
+                 类型是“int”
+     1>f:\users\wen\documents\arduino\macharm\mashinepropery.cpp(76): error C2228: “.drawchar”的左边必须有类/结构/联合
+                 类型是“int”
+     1>f:\users\wen\documents\arduino\macharm\mashinepropery.cpp(77): error C2228: “.drawchar”的左边必须有类/结构/联合
+                 类型是“int”
+     1>f:\users\wen\documents\arduino\macharm\mashinepropery.cpp(78): error C2228: “.drawchar”的左边必须有类/结构/联合
+                 类型是“int”
+     1>f:\users\wen\documents\arduino\macharm\mashinepropery.cpp(80): error C2228: “.drawchar”的左边必须有类/结构/联合
+                 类型是“int”
+     1>f:\users\wen\documents\arduino\macharm\mashinepropery.cpp(81): error C2228: “.drawchar”的左边必须有类/结构/联合
+                 类型是“int”
+     1>f:\users\wen\documents\arduino\macharm\mashinepropery.cpp(82): error C2228: “.drawchar”的左边必须有类/结构/联合
+                 类型是“int”
+     1>f:\users\wen\documents\arduino\macharm\mashinepropery.cpp(84): error C2228: “.drawchar”的左边必须有类/结构/联合
+                 类型是“int”
+     1>f:\users\wen\documents\arduino\macharm\mashinepropery.cpp(85): error C2228: “.drawchar”的左边必须有类/结构/联合
+                 类型是“int”
+     1>f:\users\wen\documents\arduino\macharm\mashinepropery.cpp(86): error C2228: “.drawchar”的左边必须有类/结构/联合
+                 类型是“int”
+     1>f:\users\wen\documents\arduino\macharm\mashinepropery.cpp(88): error C2228: “.display”的左边必须有类/结构/联合
+                 类型是“int”
+     1>f:\users\wen\documents\arduino\macharm\mashinepropery.cpp(101): error C2228: “.ssd1306_init”的左边必须有类/结构/联合
+                 类型是“int”
+     1>f:\users\wen\documents\arduino\macharm\mashinepropery.cpp(102): error C2228: “.clear”的左边必须有类/结构/联合
+                 类型是“int”
+     1>f:\users\wen\documents\arduino\macharm\mashinepropery.cpp(104): error C2228: “.drawstring”的左边必须有类/结构/联合
+                 类型是“int”
+     1>f:\users\wen\documents\arduino\macharm\mashinepropery.cpp(105): error C2228: “.drawstring”的左边必须有类/结构/联合
+                 类型是“int”
+     1>f:\users\wen\documents\arduino\macharm\mashinepropery.cpp(106): error C2228: “.drawstring”的左边必须有类/结构/联合
+                 类型是“int”
+     1>f:\users\wen\documents\arduino\macharm\mashinepropery.cpp(107): error C2228: “.drawstring”的左边必须有类/结构/联合
+                 类型是“int”
+     1>f:\users\wen\documents\arduino\macharm\mashinepropery.cpp(108): error C2228: “.drawstring”的左边必须有类/结构/联合
+                 类型是“int”
+     1>f:\users\wen\documents\arduino\macharm\mashinepropery.cpp(109): error C2228: “.drawstring”的左边必须有类/结构/联合
+                 类型是“int”
+     1>f:\users\wen\documents\arduino\macharm\mashinepropery.cpp(110): error C2228: “.drawstring”的左边必须有类/结构/联合
+                 类型是“int”
+     1>f:\users\wen\documents\arduino\macharm\mashinepropery.cpp(111): error C2228: “.drawstring”的左边必须有类/结构/联合
+                 类型是“int”
+     1>f:\users\wen\documents\arduino\macharm\mashinepropery.cpp(112): error C2228: “.drawstring”的左边必须有类/结构/联合
+                 类型是“int”
+     1>f:\users\wen\documents\arduino\macharm\mashinepropery.cpp(113): error C2228: “.display”的左边必须有类/结构/联合
+                 类型是“int”
+     1>f:\users\wen\documents\arduino\macharm\mashpid.cpp(9): error C2084: 函数“MashPid::MashPid(void)”已有主体
+                 f:\users\wen\documents\arduino\macharm\mashpid.h(32) : 参见“{ctor}”的前一个定义
+     1>f:\users\wen\documents\arduino\macharm\mashpid.cpp(13): error C2084: 函数“MashPid::~MashPid(void)”已有主体
+                 f:\users\wen\documents\arduino\macharm\mashpid.h(33) : 参见“{dtor}”的前一个定义
+     1>f:\users\wen\documents\arduino\macharm\mashpid.cpp(17): error C2084: 函数“double MashPid::PIDCalc(MashPid::PID *,double,unsigned int)”已有主体
+                 f:\users\wen\documents\arduino\macharm\mashpid.h(34) : 参见“PIDCalc”的前一个定义
+     1>f:\users\wen\documents\arduino\macharm\mashpid.cpp(32): error C2084: 函数“void MashPid::PIDInit(MashPid::PID *)”已有主体
+                 f:\users\wen\documents\arduino\macharm\mashpid.h(35) : 参见“PIDInit”的前一个定义
+         mashinepropery.cpp
+     1>c1xx : warning C4117: 保留“__cplusplus”宏名，忽略“#define”
+     1>f:\users\wen\documents\arduino\macharm\__vm\.macharm.vsarduino.h(13): warning C4005: “__AVR_ATmega328p__”: 宏重定义
+                 命令行参数: 参见前面的“__AVR_ATmega328p__”定义
+     1>f:\users\wen\documents\arduino\macharm\__vm\.macharm.vsarduino.h(14): warning C4005: “__AVR_ATmega328P__”: 宏重定义
+                 命令行参数: 参见前面的“__AVR_ATmega328P__”定义
+     1>f:\users\wen\documents\arduino\macharm\__vm\.macharm.vsarduino.h(16): warning C4005: “ARDUINO_MAIN”: 宏重定义
+                 命令行参数: 参见前面的“ARDUINO_MAIN”定义
+     1>f:\users\wen\documents\arduino\macharm\__vm\.macharm.vsarduino.h(17): warning C4005: “__AVR__”: 宏重定义
+                 命令行参数: 参见前面的“__AVR__”定义
+     1>f:\users\wen\documents\arduino\macharm\__vm\.macharm.vsarduino.h(18): warning C4005: “__avr__”: 宏重定义
+                 命令行参数: 参见前面的“__avr__”定义
+     1>f:\users\wen\documents\arduino\macharm\__vm\.macharm.vsarduino.h(20): warning C4117: 保留“__cplusplus”宏名，忽略“#define”
+     1>f:\users\wen\documents\arduino\macharm\__vm\.macharm.vsarduino.h(22): warning C4005: “ARDUINO_ARCH_AVR”: 宏重定义
+                 命令行参数: 参见前面的“ARDUINO_ARCH_AVR”定义
+     1>f:\users\wen\documents\arduino\macharm\__vm\.macharm.vsarduino.h(23): warning C4005: “ARDUINO_AVR_UNO”: 宏重定义
+                 命令行参数: 参见前面的“ARDUINO_AVR_UNO”定义
+     1>f:\users\wen\documents\arduino\macharm\__vm\.macharm.vsarduino.h(30): warning C4005: “__asm__”: 宏重定义
+                 f:\users\wen\documents\arduino\macharm\__vm\.macharm.vsarduino.h(25) : 参见“__asm__”的前一个定义
+     1>d:\program files (x86)\arduino\hardware\tools\avr\lib\gcc\avr\4.3.2\include\stddef.h(214): error C2371: “size_t”: 重定义；不同的基类型
+                 f:\users\wen\documents\arduino\macharm\predefined c++ types (compiler internal)(19) : 参见“size_t”的声明
+     1>d:\program files (x86)\arduino\hardware\tools\avr\avr\include\stdlib.h(152): error C2072: “div”: 函数的初始化
+     1>d:\program files (x86)\arduino\hardware\tools\avr\avr\include\stdlib.h(152): error C2440: “初始化”: 无法从“const char [12]”转换为“div_t (int,int)”
+                 没有转换为函数类型，但有转换为函数的引用或指针
+     1>d:\program files (x86)\arduino\hardware\tools\avr\avr\include\stdlib.h(158): error C2072: “ldiv”: 函数的初始化
+     1>d:\program files (x86)\arduino\hardware\tools\avr\avr\include\stdlib.h(158): error C2440: “初始化”: 无法从“const char [12]”转换为“ldiv_t (long,long)”
+                 没有转换为函数类型，但有转换为函数的引用或指针
+     1>d:\program files (x86)\arduino\hardware\tools\avr\avr\include\math.h(336): error C2143: 语法错误 : 缺少“)”(在“:”的前面)
+     1>d:\program files (x86)\arduino\hardware\tools\avr\avr\include\math.h(337): error C2059: 语法错误:“)”
+     1>d:\program files (x86)\arduino\hardware\tools\avr\avr\include\math.h(413): error C2143: 语法错误 : 缺少“)”(在“:”的前面)
+     1>d:\program files (x86)\arduino\hardware\tools\avr\avr\include\math.h(414): error C2059: 语法错误:“)”
+     1>d:\program files (x86)\arduino\hardware\arduino\cores\arduino\arduino.h(113): error C2371: “byte”: 重定义；不同的基类型
+                 f:\users\wen\documents\arduino\macharm\__vm\.macharm.vsarduino.h(44) : 参见“byte”的声明
+     1>d:\program files (x86)\arduino\hardware\arduino\cores\arduino\hardwareserial.h(65): error C2535: “size_t HardwareSerial::write(uint8_t)”: 已经定义或声明成员函数
+                 d:\program files (x86)\arduino\hardware\arduino\cores\arduino\hardwareserial.h(62) : 参见“HardwareSerial::write”的声明
+     1>f:\users\wen\documents\arduino\macharm\__vm\.macharm.vsarduino.h(54): warning C4005: “pgm_read_byte”: 宏重定义
+                 d:\program files (x86)\arduino\hardware\tools\avr\avr\include\avr\pgmspace.h(696) : 参见“pgm_read_byte”的前一个定义
+     1>f:\users\wen\documents\arduino\macharm\__vm\.macharm.vsarduino.h(55): warning C4005: “pgm_read_word”: 宏重定义
+                 d:\program files (x86)\arduino\hardware\tools\avr\avr\include\avr\pgmspace.h(705) : 参见“pgm_read_word”的前一个定义
+     1>f:\users\wen\documents\arduino\macharm\__vm\.macharm.vsarduino.h(57): warning C4005: “digitalPinToPort”: 宏重定义
+                 d:\program files (x86)\arduino\hardware\arduino\cores\arduino\arduino.h(163) : 参见“digitalPinToPort”的前一个定义
+     1>f:\users\wen\documents\arduino\macharm\__vm\.macharm.vsarduino.h(58): warning C4005: “digitalPinToBitMask”: 宏重定义
+                 d:\program files (x86)\arduino\hardware\arduino\cores\arduino\arduino.h(164) : 参见“digitalPinToBitMask”的前一个定义
+     1>f:\users\wen\documents\arduino\macharm\__vm\.macharm.vsarduino.h(59): warning C4005: “digitalPinToTimer”: 宏重定义
+                 d:\program files (x86)\arduino\hardware\arduino\cores\arduino\arduino.h(165) : 参见“digitalPinToTimer”的前一个定义
+     1>f:\users\wen\documents\arduino\macharm\__vm\.macharm.vsarduino.h(60): warning C4005: “analogInPinToBit”: 宏重定义
+                 d:\program files (x86)\arduino\hardware\arduino\cores\arduino\arduino.h(145) : 参见“analogInPinToBit”的前一个定义
+     1>f:\users\wen\documents\arduino\macharm\__vm\.macharm.vsarduino.h(61): warning C4005: “portOutputRegister”: 宏重定义
+                 d:\program files (x86)\arduino\hardware\arduino\cores\arduino\arduino.h(167) : 参见“portOutputRegister”的前一个定义
+     1>f:\users\wen\documents\arduino\macharm\__vm\.macharm.vsarduino.h(62): warning C4005: “portInputRegister”: 宏重定义
+                 d:\program files (x86)\arduino\hardware\arduino\cores\arduino\arduino.h(168) : 参见“portInputRegister”的前一个定义
+     1>f:\users\wen\documents\arduino\macharm\__vm\.macharm.vsarduino.h(63): warning C4005: “portModeRegister”: 宏重定义
+                 d:\program files (x86)\arduino\hardware\arduino\cores\arduino\arduino.h(169) : 参见“portModeRegister”的前一个定义
+     1>f:\users\wen\documents\arduino\macharm\macharm.ino(130): error C3861: “DealSerialEvent”:  找不到标识符
+     1>d:\program files (x86)\arduino\libraries\ssd1306\ssd1306.h(82): error C2011: “SSD1306”:“class”类型重定义
+                 d:\program files (x86)\arduino\libraries\ssd1306\ssd1306.h(82) : 参见“SSD1306”的声明
+     1>f:\users\wen\documents\arduino\macharm\mashinepropery.cpp(19): error C2079: “oled”使用未定义的 class“SSD1306”
+     1>f:\users\wen\documents\arduino\macharm\mashinepropery.cpp(19): error C2078: 初始值设定项太多
+     1>f:\users\wen\documents\arduino\macharm\mashinepropery.cpp(34): error C2228: “.drawchar”的左边必须有类/结构/联合
+                 类型是“int”
+     1>f:\users\wen\documents\arduino\macharm\mashinepropery.cpp(35): error C2228: “.drawchar”的左边必须有类/结构/联合
+                 类型是“int”
+     1>f:\users\wen\documents\arduino\macharm\mashinepropery.cpp(36): error C2228: “.drawchar”的左边必须有类/结构/联合
+                 类型是“int”
+     1>f:\users\wen\documents\arduino\macharm\mashinepropery.cpp(38): error C2228: “.drawchar”的左边必须有类/结构/联合
+                 类型是“int”
+     1>f:\users\wen\documents\arduino\macharm\mashinepropery.cpp(39): error C2228: “.drawchar”的左边必须有类/结构/联合
+                 类型是“int”
+     1>f:\users\wen\documents\arduino\macharm\mashinepropery.cpp(40): error C2228: “.drawchar”的左边必须有类/结构/联合
+                 类型是“int”
+     1>f:\users\wen\documents\arduino\macharm\mashinepropery.cpp(42): error C2228: “.drawchar”的左边必须有类/结构/联合
+                 类型是“int”
+     1>f:\users\wen\documents\arduino\macharm\mashinepropery.cpp(43): error C2228: “.drawchar”的左边必须有类/结构/联合
+                 类型是“int”
+     1>f:\users\wen\documents\arduino\macharm\mashinepropery.cpp(44): error C2228: “.drawchar”的左边必须有类/结构/联合
+                 类型是“int”
+     1>f:\users\wen\documents\arduino\macharm\mashinepropery.cpp(46): error C2228: “.drawchar”的左边必须有类/结构/联合
+                 类型是“int”
+     1>f:\users\wen\documents\arduino\macharm\mashinepropery.cpp(47): error C2228: “.drawchar”的左边必须有类/结构/联合
+                 类型是“int”
+     1>f:\users\wen\documents\arduino\macharm\mashinepropery.cpp(48): error C2228: “.drawchar”的左边必须有类/结构/联合
+                 类型是“int”
+     1>f:\users\wen\documents\arduino\macharm\mashinepropery.cpp(50): error C2228: “.drawchar”的左边必须有类/结构/联合
+                 类型是“int”
+     1>f:\users\wen\documents\arduino\macharm\mashinepropery.cpp(51): error C2228: “.drawchar”的左边必须有类/结构/联合
+                 类型是“int”
+     1>f:\users\wen\documents\arduino\macharm\mashinepropery.cpp(52): error C2228: “.drawchar”的左边必须有类/结构/联合
+                 类型是“int”
+     1>f:\users\wen\documents\arduino\macharm\mashinepropery.cpp(54): error C2228: “.drawchar”的左边必须有类/结构/联合
+                 类型是“int”
+     1>f:\users\wen\documents\arduino\macharm\mashinepropery.cpp(55): error C2228: “.drawchar”的左边必须有类/结构/联合
+                 类型是“int”
+     1>f:\users\wen\documents\arduino\macharm\mashinepropery.cpp(56): error C2228: “.drawchar”的左边必须有类/结构/联合
+                 类型是“int”
+     1>f:\users\wen\documents\arduino\macharm\mashinepropery.cpp(58): error C2228: “.display”的左边必须有类/结构/联合
+                 类型是“int”
+     1>f:\users\wen\documents\arduino\macharm\mashinepropery.cpp(64): error C2228: “.drawchar”的左边必须有类/结构/联合
+                 类型是“int”
+     1>f:\users\wen\documents\arduino\macharm\mashinepropery.cpp(65): error C2228: “.drawchar”的左边必须有类/结构/联合
+                 类型是“int”
+     1>f:\users\wen\documents\arduino\macharm\mashinepropery.cpp(66): error C2228: “.drawchar”的左边必须有类/结构/联合
+                 类型是“int”
+     1>f:\users\wen\documents\arduino\macharm\mashinepropery.cpp(68): error C2228: “.drawchar”的左边必须有类/结构/联合
+                 类型是“int”
+     1>f:\users\wen\documents\arduino\macharm\mashinepropery.cpp(69): error C2228: “.drawchar”的左边必须有类/结构/联合
+                 类型是“int”
+     1>f:\users\wen\documents\arduino\macharm\mashinepropery.cpp(70): error C2228: “.drawchar”的左边必须有类/结构/联合
+                 类型是“int”
+     1>f:\users\wen\documents\arduino\macharm\mashinepropery.cpp(72): error C2228: “.drawchar”的左边必须有类/结构/联合
+                 类型是“int”
+     1>f:\users\wen\documents\arduino\macharm\mashinepropery.cpp(73): error C2228: “.drawchar”的左边必须有类/结构/联合
+                 类型是“int”
+     1>f:\users\wen\documents\arduino\macharm\mashinepropery.cpp(74): error C2228: “.drawchar”的左边必须有类/结构/联合
+                 类型是“int”
+     1>f:\users\wen\documents\arduino\macharm\mashinepropery.cpp(76): error C2228: “.drawchar”的左边必须有类/结构/联合
+                 类型是“int”
+     1>f:\users\wen\documents\arduino\macharm\mashinepropery.cpp(77): error C2228: “.drawchar”的左边必须有类/结构/联合
+                 类型是“int”
+     1>f:\users\wen\documents\arduino\macharm\mashinepropery.cpp(78): error C2228: “.drawchar”的左边必须有类/结构/联合
+                 类型是“int”
+     1>f:\users\wen\documents\arduino\macharm\mashinepropery.cpp(80): error C2228: “.drawchar”的左边必须有类/结构/联合
+                 类型是“int”
+     1>f:\users\wen\documents\arduino\macharm\mashinepropery.cpp(81): error C2228: “.drawchar”的左边必须有类/结构/联合
+                 类型是“int”
+     1>f:\users\wen\documents\arduino\macharm\mashinepropery.cpp(82): error C2228: “.drawchar”的左边必须有类/结构/联合
+                 类型是“int”
+     1>f:\users\wen\documents\arduino\macharm\mashinepropery.cpp(84): error C2228: “.drawchar”的左边必须有类/结构/联合
+                 类型是“int”
+     1>f:\users\wen\documents\arduino\macharm\mashinepropery.cpp(85): error C2228: “.drawchar”的左边必须有类/结构/联合
+                 类型是“int”
+     1>f:\users\wen\documents\arduino\macharm\mashinepropery.cpp(86): error C2228: “.drawchar”的左边必须有类/结构/联合
+                 类型是“int”
+     1>f:\users\wen\documents\arduino\macharm\mashinepropery.cpp(88): error C2228: “.display”的左边必须有类/结构/联合
+                 类型是“int”
+     1>f:\users\wen\documents\arduino\macharm\mashinepropery.cpp(101): error C2228: “.ssd1306_init”的左边必须有类/结构/联合
+                 类型是“int”
+     1>f:\users\wen\documents\arduino\macharm\mashinepropery.cpp(102): error C2228: “.clear”的左边必须有类/结构/联合
+                 类型是“int”
+     1>f:\users\wen\documents\arduino\macharm\mashinepropery.cpp(104): error C2228: “.drawstring”的左边必须有类/结构/联合
+                 类型是“int”
+     1>f:\users\wen\documents\arduino\macharm\mashinepropery.cpp(105): error C2228: “.drawstring”的左边必须有类/结构/联合
+                 类型是“int”
+     1>f:\users\wen\documents\arduino\macharm\mashinepropery.cpp(106): error C2228: “.drawstring”的左边必须有类/结构/联合
+                 类型是“int”
+     1>f:\users\wen\documents\arduino\macharm\mashinepropery.cpp(107): error C2228: “.drawstring”的左边必须有类/结构/联合
+                 类型是“int”
+     1>f:\users\wen\documents\arduino\macharm\mashinepropery.cpp(108): error C2228: “.drawstring”的左边必须有类/结构/联合
+                 类型是“int”
+     1>f:\users\wen\documents\arduino\macharm\mashinepropery.cpp(109): error C2228: “.drawstring”的左边必须有类/结构/联合
+                 类型是“int”
+     1>f:\users\wen\documents\arduino\macharm\mashinepropery.cpp(110): error C2228: “.drawstring”的左边必须有类/结构/联合
+                 类型是“int”
+     1>f:\users\wen\documents\arduino\macharm\mashinepropery.cpp(111): error C2228: “.drawstring”的左边必须有类/结构/联合
+                 类型是“int”
+     1>f:\users\wen\documents\arduino\macharm\mashinepropery.cpp(112): error C2228: “.drawstring”的左边必须有类/结构/联合
+                 类型是“int”
+     1>f:\users\wen\documents\arduino\macharm\mashinepropery.cpp(113): error C2228: “.display”的左边必须有类/结构/联合
+                 类型是“int”
+     1>f:\users\wen\documents\arduino\macharm\mashinepropery.cpp(13): error C2374: “angle”: 重定义；多次初始化
+                 f:\users\wen\documents\arduino\macharm\mashpropery.h(25) : 参见“angle”的声明
+     1>f:\users\wen\documents\arduino\macharm\mashinepropery.cpp(14): error C2374: “angle_init”: 重定义；多次初始化
+                 f:\users\wen\documents\arduino\macharm\mashpropery.h(27) : 参见“angle_init”的声明
+     1>f:\users\wen\documents\arduino\macharm\mashinepropery.cpp(15): error C2374: “goal_angle”: 重定义；多次初始化
+                 f:\users\wen\documents\arduino\macharm\mashpropery.h(26) : 参见“goal_angle”的声明
+     1>f:\users\wen\documents\arduino\macharm\mashinepropery.cpp(16): error C2374: “speed”: 重定义；多次初始化
+                 f:\users\wen\documents\arduino\macharm\mashpropery.h(24) : 参见“speed”的声明
+     1>f:\users\wen\documents\arduino\macharm\mashinepropery.cpp(19): error C2374: “oled”: 重定义；多次初始化
+                 f:\users\wen\documents\arduino\macharm\mashinepropery.cpp(19) : 参见“oled”的声明
+     1>f:\users\wen\documents\arduino\macharm\mashinepropery.cpp(23): error C2084: 函数“MashinePropery::MashinePropery(void)”已有主体
+                 f:\users\wen\documents\arduino\macharm\mashpropery.h(9) : 参见“{ctor}”的前一个定义
+     1>f:\users\wen\documents\arduino\macharm\mashinepropery.cpp(27): error C2084: 函数“MashinePropery::~MashinePropery(void)”已有主体
+                 f:\users\wen\documents\arduino\macharm\mashpropery.h(10) : 参见“{dtor}”的前一个定义
+     1>f:\users\wen\documents\arduino\macharm\mashinepropery.cpp(33): error C2084: 函数“void MashinePropery::oledprintgoal(void)”已有主体
+                 f:\users\wen\documents\arduino\macharm\mashpropery.h(23) : 参见“oledprintgoal”的前一个定义
+     1>f:\users\wen\documents\arduino\macharm\mashinepropery.cpp(62): error C2084: 函数“void MashinePropery::oledprintnow(void)”已有主体
+                 f:\users\wen\documents\arduino\macharm\mashpropery.h(20) : 参见“oledprintnow”的前一个定义
+     1>f:\users\wen\documents\arduino\macharm\mashinepropery.cpp(94): error C2084: 函数“void MashinePropery::Mashine_Init(MashPid::PID *)”已有主体
+                 f:\users\wen\documents\arduino\macharm\mashpropery.h(18) : 参见“Mashine_Init”的前一个定义
+     1>f:\users\wen\documents\arduino\macharm\mashinepropery.cpp(122): error C2084: 函数“void MashinePropery::Angle_Init(void)”已有主体
+                 f:\users\wen\documents\arduino\macharm\mashpropery.h(19) : 参见“Angle_Init”的前一个定义
+     1>f:\users\wen\documents\arduino\macharm\mashinepropery.cpp(131): error C2084: 函数“int MashinePropery::GetAngle(unsigned int)”已有主体
+                 f:\users\wen\documents\arduino\macharm\mashpropery.h(13) : 参见“GetAngle”的前一个定义
+     1>f:\users\wen\documents\arduino\macharm\mashinepropery.cpp(149): error C2084: 函数“int MashinePropery::GetGoalAngle(unsigned int)”已有主体
+                 f:\users\wen\documents\arduino\macharm\mashpropery.h(14) : 参见“GetGoalAngle”的前一个定义
+     1>f:\users\wen\documents\arduino\macharm\mashinepropery.cpp(155): error C2084: 函数“void MashinePropery::SetAngle(unsigned int,unsigned int)”已有主体
+                 f:\users\wen\documents\arduino\macharm\mashpropery.h(11) : 参见“SetAngle”的前一个定义
+     1>f:\users\wen\documents\arduino\macharm\mashinepropery.cpp(170): error C2084: 函数“void MashinePropery::SetAngle(unsigned int,unsigned int,unsigned int)”已有主体
+                 f:\users\wen\documents\arduino\macharm\mashpropery.h(12) : 参见“SetAngle”的前一个定义
+     1>f:\users\wen\documents\arduino\macharm\mashinepropery.cpp(194): error C2084: 函数“unsigned int MashinePropery::GetSpeed(void)”已有主体
+                 f:\users\wen\documents\arduino\macharm\mashpropery.h(16) : 参见“GetSpeed”的前一个定义
+     1>f:\users\wen\documents\arduino\macharm\mashinepropery.cpp(200): error C2084: 函数“void MashinePropery::SetSpeed(unsigned int)”已有主体
+                 f:\users\wen\documents\arduino\macharm\mashpropery.h(15) : 参见“SetSpeed”的前一个定义
+     1>f:\users\wen\documents\arduino\macharm\mashinepropery.cpp(206): error C2084: 函数“void MashinePropery::PrintfAngle(void)”已有主体
+                 f:\users\wen\documents\arduino\macharm\mashpropery.h(17) : 参见“PrintfAngle”的前一个定义
+         正在生成代码...
+     1>已完成生成项目“F:\Users\Wen\Documents\Arduino\Macharm\Macharm.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:00.94
